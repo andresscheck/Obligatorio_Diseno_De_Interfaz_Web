@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HOME - Hilton Garden Inn Montevideo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Obligatorio de Diseño de Interfaz Web">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+                <img src="img/logo.png" alt="Logo del Hotel" title="Hilton Garden Inn Montevideo">
+            <nav>
+                <ul>
+                    <li><a href="#tarifas">Tarifas</a></li>
+                    <li><a href="#promos">Promos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+            <section id="portada">
+                <h1>Bienvenidos!</h1>
+                <p>Estamos a pasos del Montevideo Shopping Mall y del World Trade Center Montevideo. La Playa Buceo y los restaurantes están a poca distancia, y estamos a 15 km del Aeropuerto Internacional de Carrasco. Contamos con restaurante y bar, servicio a la habitación y mercado las 24 horas. Disfruta de WiFi y estacionamiento gratis, y acceso a nuestra piscina y gimnasio.</p>
+            </section>
+
+            <section id="tarifas">
+                <h1>Tarifas</h1>
+                <article>
+                    <img src="img/KingSuite.jpeg" alt="Habitación del tipo King Suite" title="King Suite">
+                <h2>King Suite</h2>
+                <ul>
+                    <li>Wifi gratis</li>
+                    <li>Instalaciones de baño privado</li> 
+                    <li>Mini-bar</li>
+                    <li>Zona de estar</li>
+                </ul>
+                <p>9.5 – excepcional</p>
+                <p class="negrita">210 USD por día<a href="#">Ampliar</a></p>
+                </article>
+                <article>
+                    <img src="img/KingRoom.jpeg" alt="Habitación del tipo King Room" title="King Room">
+                <h2>King Room</h2>
+                <ul>
+                    <li>Wifi gratis</li>
+                    <li>Instalaciones de baño privado</li> 
+                    <li>Mini-bar</li>
+                    <li>Vista a la ciudad</li>
+                </ul>
+                <p>9.1 – excepcional</p>
+                <p class="negrita">179 USD por día <a href="#">Ampliar</a></p>
+                </article>
+                <article>
+                    <img src="img/QueenRoom.jpg" alt="Habitación del tipo Queen Room" title="Queen Room">
+                <h2>Queen Room</h2>
+                <ul>
+                    <li>Wifi gratis</li>
+                    <li>Instalaciones de baño privado</li> 
+                    <li>Mini-bar</li>
+                    <li>Televisión de pantalla plana</li>
+                </ul>
+                <p>8.2 – bueno</p>
+                <p class="negrita">179 USD por día<a href="#">Ampliar</a></p>
+                </article>
+                <article>
+                    <img src="img/QueenRoomDiscapacitados.jpg" alt="Habitación del tipo Queen Room con acceso para discapacitados" title="Queen Room con acceso para discapacitados">
+                <h2>Queen Room (*)</h2>
+                <ul>
+                    <li>Wifi gratis</li>
+                    <li>Instalaciones de baño privado</li> 
+                    <li>Mini-bar</li>
+                    <li>Acceso para silla de ruedas</li>
+                </ul>
+                <p>8.2 – bueno</p>
+                <p class="negrita">179 USD por día<a href="#">Ampliar</a></p>
+                </article>
+            </section>
+
+            <section id="promos">
+                <div id="contenedorpromos">
+                    <h1>Promos</h1>
+                    <article>
+                        <img src="img/promo40Descuento.jpeg" alt="Promo 40% de Descuento hasta el 31/05/2022" title="Promo 40% de Descuento">
+                    <h2>¡40% de Descuento!</h2>
+                    <p>Reserva tu estadía hasta el 31/05/2022 y obtén un 40% de descuento.</p>
+                    <p class="negrita">Vigencia 10/05/22 al 31/05/22<a href="#">Ampliar</a></p>
+                    </article>
+                    <article>
+                        <img src="img/promo3x2.jpeg" alt="Promo 3x2 hasta el 06/06/2022" title="Promo 3x2">
+                    <h2>¡3 x 2!</h2>
+                    <p>Disfruta 3 noches por el valor de dos en habitación de categoría Suite.</p>
+                    <p class="negrita">Vigencia 10/05/22 al 06/06/22<a href="#">Ampliar</a></p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="galeria">
+                <h1>Galería</h1>
+                <figure><img src="img/lobby.jpeg" alt="Lobby del hotel" title="Lobby"></figure>
+                <figure><img src="img/hhonors.jpeg" alt="Reconocimiento Hilton Honors" title="Hilton Honors"></figure>
+                <figure><img src="img/exterior.jpeg" alt="Exterior del hotel" title="Exterior"></figure>
+                <figure><img src="img/jugos.jpeg" alt="Jugos del restaurante del hotel" title="Jugos"></figure>
+                <figure><img src="img/piscina.jpeg" alt="Piscina del hotel" title="Piscina"></figure>
+                <figure><img src="img/restaurante.jpeg" alt="Restaurante del hotel" title="Restaurante"></figure>
+            </section>
+
+            <section id="reservas">
+                <h1>Reservas</h1>
+                    <form>
+                        <fieldset>
+                            <label for="nombreyapellido">Nombre y apellido (*)</label>
+                            <input type="text" id="nombreyapellido" name="nombre" placeholder="" required>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="cantidaddepersonas">Cantidad de personas (*)</label>
+                            <input type="number" name="cantidaddepersonas" id="cantidaddepersonas" required>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="tipodealojamiento">Tipo de alojamiento (*)</label>
+                            <select id="tipodealojamiento" name="tipodealojamiento" required>
+                                <option value="">Seleccione</option>
+                                <option value="KingSuite">King Suite</option>
+                                <option value="KingRoom">King Room</option>
+                                <option value="QueenRoom">Queen Room</option>
+                                <option value="QueenRoom(*)">Queen Room (*)</option></select>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <label for="formadepago">Forma de pago</label>
+                            <div>
+                            <input type="radio" name="formadepago" id="Credito" value="Credito" checked>
+                            <label for="Credito">Credito</label>
+                            <input type="radio" name="formadepago" id="Debito" value="Debito">
+                            <label for="Debito">Debito</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="checkbox" name="Mascota" id="Mascota" value="Mascota">
+                            <label for="Mascota">Mascota</label>
+                        </fieldset>
+                            
+                        <input id="reservar" type="submit" value="RESERVAR">
+                    
+                    </form> 
+                    
+                    <table>
+                        <tr>
+                            <th>fecha</th>
+                            <th>temporada</th>
+                            <th>precios</th>
+                        </tr>
+                        <tr>
+                            <td>diciembre a febrero</td>
+                            <td>alta</td>
+                            <td>x3</td>
+                        </tr>
+                        <tr>
+                            <td>marzo/abril</td>
+                            <td>media</td>
+                            <td>x2.5</td>
+                        </tr>
+                        <tr>
+                            <td>mayo a noviembre</td>
+                            <td>baja</td>
+                            <td>x1</td>
+                        </tr>
+                        <tr>
+                            <td>carnaval y turismo</td>
+                            <td>alta</td>
+                            <td>x3</td>
+                        </tr>
+                        <tr>
+                            <td>vacaciones de julio</td>
+                            <td>alta</td>
+                            <td>x3</td>
+                        </tr>
+                    </table>
+            </section>
+
+        <footer>
+            <div id="contenedorfooter">
+                <a href="http://booking.com"><img src="img/Booking.png" alt="Ícono Booking" title="Booking"/></a>
+                <a href="http://airbnb.com"><img src="img/airbnb.png" alt="Ícono Airbnb" title="Airbnb"/></a>
+                <p>Seguinos!</p><a href="http://instagram.com" id="instagram"><img id='instagram' src="img/instagram.png" alt="Ícono Instagram" title="Instagram"/></a>
+            </div>
+        </footer>
+
+    </body>
+</html>
